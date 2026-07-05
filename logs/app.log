@@ -378,3 +378,808 @@ INFO 2026-07-04 00:51:57,789 log "POST /api/auth/login/ HTTP/1.1" 200 489
 INFO 2026-07-04 00:51:58,047 log "GET /api/users/1/ HTTP/1.1" 200 94
 INFO 2026-07-04 00:51:58,577 log "GET /api/products/ HTTP/1.1" 200 615
 INFO 2026-07-04 00:51:59,568 log "GET /api/products/ HTTP/1.1" 200 615
+INFO 2026-07-04 01:23:39,861 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 01:55:04,524 autoreload Watching for file changes with StatReloader
+ERROR 2026-07-04 01:56:21,706 log Invalid HTTP_HOST header: '10.248.52.36:8000'. You may need to add '10.248.52.36' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/http/request.py", line 206, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.248.52.36:8000'. You may need to add '10.248.52.36' to ALLOWED_HOSTS.
+WARNING 2026-07-04 01:56:21,707 log "POST /api/auth/login/ HTTP/1.1" 400 20691
+ERROR 2026-07-04 01:57:02,681 log Invalid HTTP_HOST header: '10.248.52.36:8000'. You may need to add '10.248.52.36' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/http/request.py", line 206, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.248.52.36:8000'. You may need to add '10.248.52.36' to ALLOWED_HOSTS.
+WARNING 2026-07-04 01:57:02,682 log "POST /api/auth/login/ HTTP/1.1" 400 20691
+INFO 2026-07-04 01:58:01,014 autoreload /home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/pierinelli_backend/settings.py changed, reloading.
+INFO 2026-07-04 01:58:01,549 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 01:58:02,846 autoreload /home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/pierinelli_backend/settings.py changed, reloading.
+INFO 2026-07-04 01:58:03,244 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 01:58:16,430 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 01:59:02,438 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-04 01:59:02,698 log "GET /api/users/1/ HTTP/1.1" 200 94
+INFO 2026-07-04 01:59:03,542 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 01:59:03,748 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 01:59:04,429 log "GET /media/products/photo_EGRm9yW.jpeg HTTP/1.1" 200 54138
+INFO 2026-07-04 01:59:04,429 log "GET /media/products/photo_abUZnXa.jpeg HTTP/1.1" 200 92794
+INFO 2026-07-04 01:59:11,468 log "GET /api/sales/ HTTP/1.1" 200 1478
+INFO 2026-07-04 01:59:13,677 log "GET /api/users/ HTTP/1.1" 200 308
+INFO 2026-07-04 01:59:15,042 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 01:59:33,808 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 01:59:41,430 log "GET /api/users/ HTTP/1.1" 200 308
+WARNING 2026-07-04 01:59:56,354 log Unauthorized: /api/auth/login/
+WARNING 2026-07-04 01:59:56,354 log "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2026-07-04 02:00:10,355 log "POST /api/auth/login/ HTTP/1.1" 200 489
+WARNING 2026-07-04 02:00:10,507 log Forbidden: /api/users/2/
+WARNING 2026-07-04 02:00:10,507 log "GET /api/users/2/ HTTP/1.1" 403 63
+INFO 2026-07-04 02:00:10,947 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 02:00:11,904 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 02:00:33,072 log "POST /api/sales/ HTTP/1.1" 201 508
+INFO 2026-07-04 02:00:33,326 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 02:00:45,696 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 02:00:48,133 log "GET /api/products/ HTTP/1.1" 200 617
+WARNING 2026-07-04 02:13:04,760 log Unauthorized: /api/auth/login/
+WARNING 2026-07-04 02:13:04,761 log "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2026-07-04 02:13:25,717 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-04 02:13:26,053 log "GET /api/users/3/ HTTP/1.1" 200 113
+INFO 2026-07-04 02:13:26,629 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 02:13:27,681 log "GET /api/products/ HTTP/1.1" 200 617
+INFO 2026-07-04 02:13:28,070 log "GET /media/products/photo_EGRm9yW.jpeg HTTP/1.1" 200 54138
+INFO 2026-07-04 02:13:28,071 log "GET /media/products/photo_abUZnXa.jpeg HTTP/1.1" 200 92794
+WARNING 2026-07-04 02:14:35,040 log Bad Request: /api/products/
+WARNING 2026-07-04 02:14:35,040 log "POST /api/products/ HTTP/1.1" 400 36
+WARNING 2026-07-04 02:14:49,513 log Bad Request: /api/products/
+WARNING 2026-07-04 02:14:49,513 log "POST /api/products/ HTTP/1.1" 400 36
+ERROR 2026-07-04 02:15:09,764 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:15:09,765 log "POST /api/products/ HTTP/1.1" 500 21753
+ERROR 2026-07-04 02:15:32,856 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:15:32,857 log "POST /api/products/ HTTP/1.1" 500 21755
+INFO 2026-07-04 02:16:04,988 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-04 02:16:05,269 log "GET /api/users/1/ HTTP/1.1" 200 94
+ERROR 2026-07-04 02:16:06,133 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:16:06,133 log "GET /api/products/ HTTP/1.1" 500 21619
+ERROR 2026-07-04 02:16:06,356 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:16:06,356 log "GET /api/products/ HTTP/1.1" 500 21619
+ERROR 2026-07-04 02:16:08,658 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:16:08,659 log "GET /api/products/ HTTP/1.1" 500 21619
+ERROR 2026-07-04 02:16:20,403 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:16:20,403 log "GET /api/products/ HTTP/1.1" 500 21569
+ERROR 2026-07-04 02:20:03,223 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:20:03,224 log "GET /api/products/ HTTP/1.1" 500 21619
+INFO 2026-07-04 02:20:16,286 log "POST /api/auth/login/ HTTP/1.1" 200 489
+WARNING 2026-07-04 02:20:16,409 log Forbidden: /api/users/2/
+WARNING 2026-07-04 02:20:16,409 log "GET /api/users/2/ HTTP/1.1" 403 63
+ERROR 2026-07-04 02:20:17,102 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:20:17,102 log "GET /api/products/ HTTP/1.1" 500 21620
+ERROR 2026-07-04 02:20:18,199 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:20:18,200 log "GET /api/products/ HTTP/1.1" 500 21620
+ERROR 2026-07-04 02:20:22,336 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:20:22,337 log "GET /api/products/ HTTP/1.1" 500 21620
+INFO 2026-07-04 02:22:31,884 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-04 02:22:32,160 log "GET /api/users/1/ HTTP/1.1" 200 94
+ERROR 2026-07-04 02:22:33,102 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:22:33,103 log "GET /api/products/ HTTP/1.1" 500 21619
+ERROR 2026-07-04 02:22:34,277 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:22:34,278 log "GET /api/products/ HTTP/1.1" 500 21619
+INFO 2026-07-04 02:23:58,859 autoreload Watching for file changes with StatReloader
+ERROR 2026-07-04 02:24:33,402 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:24:33,405 log "GET /api/products/ HTTP/1.1" 500 21623
+WARNING 2026-07-04 02:24:45,201 log Unauthorized: /api/auth/login/
+WARNING 2026-07-04 02:24:45,202 log "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2026-07-04 02:24:56,688 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-04 02:25:25,617 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-04 02:25:25,901 log "GET /api/users/1/ HTTP/1.1" 200 94
+ERROR 2026-07-04 02:25:26,374 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:25:26,375 log "GET /api/products/ HTTP/1.1" 500 21623
+ERROR 2026-07-04 02:25:27,242 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:25:27,243 log "GET /api/products/ HTTP/1.1" 500 21623
+ERROR 2026-07-04 02:25:29,935 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:25:29,936 log "GET /api/products/ HTTP/1.1" 500 21623
+INFO 2026-07-04 02:25:34,674 log "GET /api/sales/ HTTP/1.1" 200 1970
+ERROR 2026-07-04 02:25:37,402 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:25:37,403 log "GET /api/products/ HTTP/1.1" 500 21623
+INFO 2026-07-04 02:25:41,198 log "GET /api/users/ HTTP/1.1" 200 308
+ERROR 2026-07-04 02:25:47,327 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:25:47,328 log "GET /api/products/ HTTP/1.1" 500 21623
+ERROR 2026-07-04 02:26:02,429 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:26:02,430 log "GET /api/products/ HTTP/1.1" 500 21623
+INFO 2026-07-04 02:26:52,305 autoreload /home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/products/models.py changed, reloading.
+INFO 2026-07-04 02:26:52,612 autoreload Watching for file changes with StatReloader
+INFO 2026-07-04 02:27:14,428 autoreload Watching for file changes with StatReloader
+ERROR 2026-07-04 02:28:07,157 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:28:07,158 log "GET /api/products/ HTTP/1.1" 500 21623
+ERROR 2026-07-04 02:28:11,559 log Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/renderers.py", line 97, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/home/luisvc/University programming/Pierinelli app movil/pierinelli-backend/env/lib/python3.12/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+ValueError: Out of range float values are not JSON compliant: nan
+ERROR 2026-07-04 02:28:11,560 log "GET /api/products/ HTTP/1.1" 500 21623
+INFO 2026-07-04 02:31:10,957 autoreload Watching for file changes with StatReloader
+WARNING 2026-07-04 02:31:25,006 log Unauthorized: /api/products/
+WARNING 2026-07-04 02:31:25,006 log "GET /api/products/ HTTP/1.1" 401 58
+INFO 2026-07-05 04:25:40,613 autoreload Watching for file changes with StatReloader
+WARNING 2026-07-05 04:26:20,746 log Unauthorized: /api/products/
+WARNING 2026-07-05 04:26:20,746 log "GET /api/products/ HTTP/1.1" 401 172
+INFO 2026-07-05 04:26:31,622 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-05 04:26:31,876 log "GET /api/users/1/ HTTP/1.1" 200 94
+INFO 2026-07-05 04:26:32,450 log "GET /api/products/ HTTP/1.1" 200 1143
+INFO 2026-07-05 04:26:32,703 log "GET /api/products/ HTTP/1.1" 200 1143
+INFO 2026-07-05 04:26:33,490 log "GET /media/products/photo_28td3EW.jpeg HTTP/1.1" 200 115338
+INFO 2026-07-05 04:26:33,678 log "GET /media/products/photo_SDkwDd4.jpeg HTTP/1.1" 200 3148552
+INFO 2026-07-05 04:26:42,308 log "GET /media/products/photo_28td3EW.jpeg HTTP/1.1" 200 115338
+INFO 2026-07-05 04:26:42,644 log "PUT /api/products/4/ HTTP/1.1" 200 267
+INFO 2026-07-05 04:26:42,947 log "GET /api/products/ HTTP/1.1" 200 1147
+INFO 2026-07-05 04:26:43,120 log "GET /media/products/photo_ojNewPy.jpeg HTTP/1.1" 200 115338
+INFO 2026-07-05 04:27:13,815 log "GET /api/products/ HTTP/1.1" 200 1147
+WARNING 2026-07-05 04:27:46,358 log Unauthorized: /api/auth/login/
+WARNING 2026-07-05 04:27:46,358 log "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2026-07-05 04:27:56,797 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-05 04:27:57,002 log "GET /api/users/1/ HTTP/1.1" 200 94
+INFO 2026-07-05 04:27:57,540 log "GET /api/products/ HTTP/1.1" 200 1147
+INFO 2026-07-05 04:27:57,833 log "GET /api/products/ HTTP/1.1" 200 1147
+INFO 2026-07-05 04:28:50,494 log "POST /api/products/ HTTP/1.1" 201 282
+INFO 2026-07-05 04:28:50,818 log "GET /api/products/ HTTP/1.1" 200 1430
+INFO 2026-07-05 04:28:51,220 log "GET /media/products/photo_6ZG0GGF.jpeg HTTP/1.1" 200 303709
+INFO 2026-07-05 04:29:25,704 log "GET /api/products/ HTTP/1.1" 200 1430
+INFO 2026-07-05 04:29:30,273 log "DELETE /api/products/6/ HTTP/1.1" 204 0
+INFO 2026-07-05 04:29:30,557 log "GET /api/products/ HTTP/1.1" 200 1147
+INFO 2026-07-05 04:29:50,354 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-05 04:29:50,562 log "GET /api/users/1/ HTTP/1.1" 200 94
+INFO 2026-07-05 04:29:51,099 log "GET /api/products/ HTTP/1.1" 200 1147
+INFO 2026-07-05 04:29:51,315 log "GET /api/products/ HTTP/1.1" 200 1147
+INFO 2026-07-05 04:30:33,291 log "POST /api/products/ HTTP/1.1" 201 277
+INFO 2026-07-05 04:30:33,580 log "GET /api/products/ HTTP/1.1" 200 1425
+INFO 2026-07-05 04:30:33,851 log "GET /media/products/photo_HeFvXSK.jpeg HTTP/1.1" 200 93574
+INFO 2026-07-05 04:30:43,244 log "GET /media/products/photo_HeFvXSK.jpeg HTTP/1.1" 200 93574
+INFO 2026-07-05 04:30:43,541 log "PUT /api/products/7/ HTTP/1.1" 200 281
+INFO 2026-07-05 04:30:43,828 log "GET /api/products/ HTTP/1.1" 200 1429
+INFO 2026-07-05 04:30:44,064 log "GET /media/products/photo_wKWNmox.jpeg HTTP/1.1" 200 93574
+INFO 2026-07-05 04:30:49,268 log "GET /api/products/ HTTP/1.1" 200 1429
+INFO 2026-07-05 04:30:53,717 log "DELETE /api/products/5/ HTTP/1.1" 204 0
+INFO 2026-07-05 04:30:53,942 log "GET /api/products/ HTTP/1.1" 200 1165
+INFO 2026-07-05 04:30:57,396 log "DELETE /api/products/4/ HTTP/1.1" 204 0
+INFO 2026-07-05 04:30:57,617 log "GET /api/products/ HTTP/1.1" 200 897
+INFO 2026-07-05 04:31:00,432 log "GET /api/users/ HTTP/1.1" 200 308
+INFO 2026-07-05 04:31:11,996 log "PUT /api/users/3/ HTTP/1.1" 200 115
+INFO 2026-07-05 04:31:12,315 log "GET /api/users/ HTTP/1.1" 200 310
+INFO 2026-07-05 04:31:16,197 log "GET /api/sales/ HTTP/1.1" 200 1970
+INFO 2026-07-05 04:31:32,957 log "POST /api/auth/login/ HTTP/1.1" 200 489
+WARNING 2026-07-05 04:31:33,068 log Forbidden: /api/users/2/
+WARNING 2026-07-05 04:31:33,069 log "GET /api/users/2/ HTTP/1.1" 403 63
+INFO 2026-07-05 04:31:33,601 log "GET /api/products/ HTTP/1.1" 200 897
+INFO 2026-07-05 04:31:33,884 log "GET /api/products/ HTTP/1.1" 200 897
+INFO 2026-07-05 04:31:50,862 log "POST /api/sales/ HTTP/1.1" 201 481
+INFO 2026-07-05 04:31:51,136 log "GET /api/products/ HTTP/1.1" 200 896
+INFO 2026-07-05 04:32:03,046 log "POST /api/sales/ HTTP/1.1" 201 480
+INFO 2026-07-05 04:32:03,376 log "GET /api/products/ HTTP/1.1" 200 896
+INFO 2026-07-05 04:32:17,151 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-05 04:32:17,366 log "GET /api/users/1/ HTTP/1.1" 200 94
+INFO 2026-07-05 04:32:17,938 log "GET /api/products/ HTTP/1.1" 200 896
+INFO 2026-07-05 04:32:18,267 log "GET /api/products/ HTTP/1.1" 200 896
+INFO 2026-07-05 04:32:20,504 log "GET /api/sales/ HTTP/1.1" 200 2899
+INFO 2026-07-05 04:32:41,398 log "GET /api/users/ HTTP/1.1" 200 310
+INFO 2026-07-05 04:33:10,672 log "GET /api/products/ HTTP/1.1" 200 896

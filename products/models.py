@@ -1,4 +1,7 @@
+import math
+
 from django.db import models
+
 
 class Product(models.Model):
     name = models.CharField(max_length=255)
@@ -12,8 +15,21 @@ class Product(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def _sanitize_dimension(self, value):
+        try:
+            numeric_value = float(value)
+        except (TypeError, ValueError):
+            return 0.0
+
+        if not math.isfinite(numeric_value):
+            return 0.0
+
+        return numeric_value
+
     def save(self, *args, **kwargs):
-        self.area = self.height * self.width
+        height = self._sanitize_dimension(self.height)
+        width = self._sanitize_dimension(self.width)
+        self.area = height * width
         super().save(*args, **kwargs)
 
     def __str__(self):
