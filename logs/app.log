@@ -1183,3 +1183,22 @@ INFO 2026-07-05 04:32:18,267 log "GET /api/products/ HTTP/1.1" 200 896
 INFO 2026-07-05 04:32:20,504 log "GET /api/sales/ HTTP/1.1" 200 2899
 INFO 2026-07-05 04:32:41,398 log "GET /api/users/ HTTP/1.1" 200 310
 INFO 2026-07-05 04:33:10,672 log "GET /api/products/ HTTP/1.1" 200 896
+INFO 2026-07-21 23:31:11,708 autoreload Watching for file changes with StatReloader
+INFO 2026-07-21 23:32:51,544 autoreload Watching for file changes with StatReloader
+INFO 2026-07-21 23:36:11,965 autoreload Watching for file changes with StatReloader
+INFO 2026-07-21 23:51:08,578 autoreload Watching for file changes with StatReloader
+INFO 2026-07-21 23:51:55,474 log "POST /api/auth/login/ HTTP/1.1" 200 489
+INFO 2026-07-21 23:51:55,800 log "GET /api/users/1/ HTTP/1.1" 200 94
+INFO 2026-07-21 23:51:56,708 log "GET /api/products/ HTTP/1.1" 200 896
+INFO 2026-07-21 23:51:56,928 log "GET /api/products/ HTTP/1.1" 200 896
+INFO 2026-07-21 23:52:03,906 log "GET /api/products/ HTTP/1.1" 200 896
+INFO 2026-07-21 23:52:08,123 log "GET /media/products/photo_EGRm9yW.jpeg HTTP/1.1" 200 54138
+INFO 2026-07-21 23:52:08,804 log "PUT /api/products/1/ HTTP/1.1" 200 303
+INFO 2026-07-21 23:52:09,125 log "GET /api/products/ HTTP/1.1" 200 893
+INFO 2026-07-21 23:52:09,249 log "GET /media/products/photo_8uSSpoV.jpeg HTTP/1.1" 200 54138
+INFO 2026-07-21 23:52:47,275 log "POST /api/products/ HTTP/1.1" 201 273
+INFO 2026-07-21 23:52:47,574 log "GET /api/products/ HTTP/1.1" 200 1167
+INFO 2026-07-21 23:52:47,707 log "GET /media/products/photo_X2CqRso.jpeg HTTP/1.1" 200 246425
+INFO 2026-07-21 23:52:51,598 log "GET /api/sales/ HTTP/1.1" 200 2893
+INFO 2026-07-21 23:52:53,538 log "GET /api/users/ HTTP/1.1" 200 310
+INFO 2026-07-21 23:52:56,607 log "GET /api/products/ HTTP/1.1" 200 1167
